@@ -1,0 +1,59 @@
+{
+    "type": "object",
+    "properties": {
+        "accountId": {
+            "required": true,
+            "type": "string"
+        },
+        "videoId": {
+            "required": true,
+            "type": "string"
+        },
+        "country": {
+            "required": true,
+            "type": "string"
+        },
+        "pp": {
+            "type": "boolean",
+            "default": true
+        },
+        "bearer_token": {
+            "type": "string"
+        },
+        "oauth_token": {
+            "type": "string"
+        },
+        "upload_protocol": {
+            "type": "string"
+        },
+        "prettyPrint": {
+            "type": "boolean",
+            "default": true
+        },
+        "uploadType": {
+            "type": "string"
+        },
+        "fields": {
+            "type": "string"
+        },
+        "callback": {
+            "type": "string"
+        },
+        "alt": {
+            "type": "string",
+            "enum": [
+                "json",
+                "media",
+                "proto"
+            ],
+            "default": "json"
+        },
+        "__xgafv": {
+            "type": "string",
+            "enum": [
+                "1",
+                "2"
+            ]
+        }
+    }
+}

@@ -1,0 +1,70 @@
+{
+    "type": "object",
+    "properties": {
+        "accountId": {
+            "required": true,
+            "type": "string"
+        },
+        "title": {
+            "type": "string"
+        },
+        "videoIds": {
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        },
+        "pageToken": {
+            "type": "string"
+        },
+        "pageSize": {
+            "type": "integer"
+        },
+        "altIds": {
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        },
+        "pphNames": {
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        },
+        "altId": {
+            "type": "string"
+        },
+        "studioNames": {
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        },
+        "territories": {
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        },
+        "callback": {
+            "type": "string"
+        },
+        "alt": {
+            "type": "string",
+            "enum": [
+                "json",
+                "media",
+                "proto"
+            ],
+            "default": "json"
+        },
+        "__xgafv": {
+            "type": "string",
+            "enum": [
+                "1",
+                "2"
+            ]
+        }
+    }
+}
